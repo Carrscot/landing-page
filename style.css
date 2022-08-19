@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px 20px 200px;
+    padding: 20px 200px;
     background-color: #1f2937;
     align-items: center;
 }
@@ -28,6 +28,7 @@ ul {
     padding: 0;
     gap: 12px;
 }
+
 
 a {
     text-decoration: none;
@@ -53,7 +54,7 @@ a {
 
 .t-one {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -68,8 +69,8 @@ a {
 }
 
 button {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: 1px solid #3882F6;
     padding: 4px 20px;
     border-radius: 8px;
     color: #E5E7EB;
@@ -79,10 +80,55 @@ button {
 
 .content {
     display: flex;
+    flex-direction: column;
+    padding: 0px 0px 100px 0px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.content-body {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px; 
+    align-items: center;
+    font-size: 16px;
+    color: #556275
+}
+
+.c-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 140, 255);
+    border-radius: 8px;
+}
+
+.img-desc {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: auto;
 }
 
 .quote {
     display: flex;
+    padding: 150px;
+}
+
+.quote-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign {
