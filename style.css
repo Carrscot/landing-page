@@ -1,5 +1,17 @@
+body {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+
 }
 
 .title {
@@ -20,4 +32,16 @@
 
 .footer {
     display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
 }
