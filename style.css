@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+}
+
+.title {
+    display: flex;
+}
+
+.content {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.sign {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
